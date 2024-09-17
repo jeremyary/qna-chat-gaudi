@@ -7,5 +7,5 @@ global:
     runtime_envs: []
     
     retriever:
-      image: image-registry.openshift-image-registry.svc:5000/gaudi-llm/retriever-redis:latest
+      image: quay.io/chengyu_zhu/opea/gaudi-llm/retriever-redis:latest
       git_ref: 8ebe2bf # make sure to validate buildconfig & other change scope before updating

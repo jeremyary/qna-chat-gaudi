@@ -12,5 +12,5 @@ global:
     runtime_envs: []
     
     llm_server_for_gaudi:  
-      image: image-registry.openshift-image-registry.svc:5000/gaudi-llm/llm-tgi:latest
+      image: quay.io/chengyu_zhu/opea/gaudi-llm/llm-tgi:latest
       git_ref: 8ebe2bf # make sure to validate buildconfig & other change scope before updating
